@@ -25,7 +25,7 @@ And it offers API that how to use, it follows***
 
 `if you can know more information about system, expanding collector that 
 it can impliment collector interface, after, register it.
-smaple disk, DiskCollector impliment collector interfact`
+smaple disk, DiskCollector impliment collector interface`
 ```go
     collectorFactory.RegisterCollector("disk", &DiskCollector{})
 ```
